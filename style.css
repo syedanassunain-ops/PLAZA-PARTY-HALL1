@@ -847,6 +847,7 @@ h6 {
   object-fit: cover;
   border-radius: 50%;  
 }
+/* WhatsApp Floating Button */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -855,8 +856,8 @@ h6 {
 }
 
 .whatsapp-float img {
-  width: 55px;
-  height: 55px;
+  width: 50px !important;
+  height: 50px !important;
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  object-fit: contain;
 }
